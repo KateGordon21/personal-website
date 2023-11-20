@@ -2,17 +2,18 @@ package com.kgeportfolio.v1;
 
 import javax.persistence.*;
 import java.util.Date;
+import java.util.List;
 
 @Entity
 public class WorkExperience {
 
     @Id
-    @GeneratedValue
     private String id;
 
     private String companyName;
 
-    private String description;
+    @ElementCollection
+    private List<String> description;
 
     private Date endDate;
 
@@ -38,11 +39,11 @@ public class WorkExperience {
         this.companyName = companyName;
     }
 
-    public String getDescription() {
+    public List<String> getDescription() {
         return description;
     }
 
-    public void setDescription(String description) {
+    public void setDescription(List<String> description) {
         this.description = description;
     }
 
