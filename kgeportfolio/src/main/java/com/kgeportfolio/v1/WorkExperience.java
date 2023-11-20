@@ -1,4 +1,4 @@
-package com.kgeportfolio;
+package com.kgeportfolio.v1;
 
 import javax.persistence.*;
 import java.util.Date;
