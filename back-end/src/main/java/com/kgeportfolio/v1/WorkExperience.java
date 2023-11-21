@@ -1,6 +1,5 @@
 package com.kgeportfolio.v1;
 
-import org.springframework.web.bind.annotation.CrossOrigin;
 
 import javax.persistence.*;
 import java.util.Date;
