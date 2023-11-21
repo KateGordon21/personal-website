@@ -5,11 +5,10 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/kgeportfolio" />
-        <option name="gradleJvm" value="zulu-11" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/back-end" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/kgEportfolio" />
+            <option value="$PROJECT_DIR$/back-end" />
           </set>
         </option>
       </GradleProjectSettings>
