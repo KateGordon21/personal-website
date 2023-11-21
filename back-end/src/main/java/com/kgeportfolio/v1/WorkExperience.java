@@ -1,11 +1,12 @@
 package com.kgeportfolio.v1;
 
+import org.springframework.web.bind.annotation.CrossOrigin;
+
 import javax.persistence.*;
 import java.util.Date;
 import java.util.List;
 
 @Entity
-@Table(name = "workExperience")
 public class WorkExperience {
 
     @Id

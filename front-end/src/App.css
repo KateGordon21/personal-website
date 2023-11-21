@@ -40,3 +40,11 @@
 .read-the-docs {
   color: #888;
 }
+
+ul {
+  text-align: left;
+}
+
+li {
+  list-style: circle;
+}

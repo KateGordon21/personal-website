@@ -1,7 +1,7 @@
 import './App.css'
 import { useEffect, useState } from 'react';
 
-interface JobData {
+interface WorkExperience {
   id: string;
   companyName: string;
   description: string[];
@@ -12,7 +12,7 @@ interface JobData {
 }
 
 function App() {
-  const [workExperiences, setWorkExperiences] = useState<JobData[]>([]);
+  const [workExperiences, setWorkExperiences] = useState<WorkExperience[]>([]);
 
   useEffect(() => {
     // Fetch data from the backend API
@@ -31,12 +31,12 @@ function App() {
         <div key={experience.id}>
           <p>{experience.position}</p>
           <p>{experience.companyName}</p>
-        </div>
         <ul>
         {experience.description.map((desc) => (
           <li>{desc}</li>
         ))}
       </ul>
+      </div>
       </div>
       ))}
     </>
