@@ -1,0 +1,11 @@
+.home {
+    margin: 0;
+    padding: 0;
+    background-image: url('../assets/trees_background.jpg');  /* Adjust the path */
+    background-size: cover;
+    background-repeat: repeat-x;
+    min-height: 90vh;
+    font-family: 'Arial', sans-serif;
+    opacity: .6;
+    /* Add any other styles you want for the body */
+  }
