@@ -5,7 +5,6 @@
     background-size: cover;
     background-repeat: repeat-x;
     min-height: 90vh;
-    font-family: 'Arial', sans-serif;
-    opacity: .6;
+    opacity: .5;
     /* Add any other styles you want for the body */
   }
